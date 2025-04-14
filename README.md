@@ -1,47 +1,49 @@
-# AI Traffic Management System 🚦  
+# AI-Powered Traffic Control System 🚦
 
-An intelligent traffic light control system that dynamically adjusts timings based on real-time traffic congestion using OpenCV and Neural Networks.  
-
----
-
-## 📜 Project Overview  
-Traffic congestion is a persistent challenge in urban areas, resulting in wasted time, frustration, and environmental harm. Traditional traffic light systems are static and unable to respond to real-time conditions, leading to inefficiency.  
-
-Our solution introduces a **smart traffic management system** that uses **computer vision** and **machine learning** to dynamically optimize traffic light timings, minimizing delays and reducing emissions.  
+A smart system that intelligently manages traffic lights by adjusting their durations in real time, using computer vision (OpenCV) and neural networks to respond to actual road conditions.
 
 ---
 
-## 🎯 Theme: AI Traffic Management  
+## 📜 Overview of the Project
 
-**Problem Statement:** Develop a system that alters traffic light durations dynamically based on congestion levels in individual lanes, leveraging OpenCV and Neural Networks.  
+Urban traffic congestion is a growing concern, contributing to lost time, commuter frustration, and increased pollution. Traditional traffic lights operate on fixed timers, lacking responsiveness to changing traffic conditions.
 
----
-
-## ✨ Features  
-
-- **Real-Time Traffic Analysis:**  
-  Analyze live camera feeds using OpenCV to measure traffic volume per lane.  
-
-- **Dynamic Traffic Light Timings:**  
-  Predict optimal traffic light durations with Neural Networks to reduce congestion.  
-
-- **Adaptive Learning:**  
-  Continuously improve predictions over time by learning from historical traffic data.  
-
-- **Scalability:**  
-  Deployable across multiple intersections and adaptable to various traffic scenarios.  
-
-- **Eco-Friendly:**  
-  Reduced idling time helps lower fuel consumption and carbon emissions.  
+This project introduces a **real-time adaptive traffic control system** that employs **AI and computer vision** to analyze traffic flow and intelligently adjust signal timings, reducing bottlenecks and enhancing traffic efficiency.
 
 ---
 
-## 💻 Technical Stack  
+## 🎯 Project Theme: AI-Based Traffic Control
 
-- **Computer Vision:** OpenCV  
-- **Machine Learning:** TensorFlow (Custom Neural Networks)  
-- **Backend:** Python Flask  
-- **Frontend:** React.js (for real-time traffic visualization)  
+**Challenge:**  
+Build an intelligent system that uses lane-specific traffic data to dynamically determine signal durations, leveraging tools like OpenCV and neural networks.
+
+---
+
+## ✨ Key Features
+
+- **Live Traffic Monitoring:**  
+  Uses OpenCV to capture and evaluate vehicle density from live video streams for each lane.
+
+- **Intelligent Signal Timing:**  
+  Neural networks predict the most efficient green light duration for each direction to ease traffic flow.
+
+- **Self-Learning Capabilities:**  
+  Improves accuracy over time by learning from previously recorded traffic patterns.
+
+- **Expandable Design:**  
+  Easily adaptable to multiple junctions and different traffic environments.
+
+- **Eco-Conscious Functionality:**  
+  Lower vehicle idle time leads to reduced fuel consumption and greenhouse gas emissions.
+
+---
+
+## 💻 Tech Stack
+
+- **Vision Processing:** OpenCV  
+- **AI & Prediction Models:** TensorFlow (Custom-built Neural Networks)  
+- **Server-Side:** Python Flask  
+- **User Interface:** React.js for visualizing traffic conditions in real time  
 
 ---
 
