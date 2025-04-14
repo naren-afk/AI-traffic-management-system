@@ -58,7 +58,7 @@ Follow these steps to set up the project on your local machine:
    pip install -r requirements.txt
 3. **Run the Application**  
    ```sh
-   python main.py  
+   bash run.sh
  4. **Access the Frontend Dashboard**  
   
    Open your browser and navigate to  ``` http://localhost:3000``` to view real-time traffic data.
